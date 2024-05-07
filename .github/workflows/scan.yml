@@ -13,4 +13,4 @@ jobs:
     - name: Scan
       uses: docker://aquasec/trivy
       with:
-        args: --severity CRITICAL --no-progress trivy-ci-test:1.2.3
+        args:  --no-progress trivy-ci-test:1.2.3
