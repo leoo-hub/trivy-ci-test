@@ -27,6 +27,5 @@ build:
 # and is mainly for a demonstration how it works on GitLab Community Edition
 Trivy_container_scanning:
   artifacts:
-    when:                          always
-    reports:
-      container_scanning:          gl-container-scanning-report.json
+    paths: [gl-container-scanning-report.json]
+
